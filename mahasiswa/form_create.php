@@ -10,22 +10,22 @@
   <form method = "POST" action = "create.php">
   <div class="mb-3">
     <label class="form-label">NIM</label>
-    <input type="text" class="form-control" name = "nim">
+    <input type="text" class="form-control" name = "nim" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Nama Mahasiswa</label>
-    <input type="text" class="form-control" name = "nama">
+    <input type="text" class="form-control" name = "nama" Required>
   </div>
   <div class="mb-3">
     <label>Jenis Kelamin</label>
-    <select name = "jk" class="form-control">
+    <select name = "jk" class="form-control" Required>
       <option>Laki-Laki</option>
       <option>Perempuan</option>
     </select>
   </div>
   <div class="mb-3">
     <label class="form-label">Semester</label>
-    <input type="text" class="form-control" name = "semester">
+    <input type="text" class="form-control" name = "semester" Required>
   </div>
   <div class="mb-3">
     <label>Fakultas</label>
@@ -39,7 +39,7 @@
   </div>
   <div class="mb-3">
     <label class="form-label">Jurusan</label>
-    <input type="text" class="form-control" name = "jurusan">
+    <input type="text" class="form-control" name = "jurusan" Required>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
   <center><a href = "read.php">Lihat Data Buku</a></center>

@@ -19,23 +19,23 @@ $row = mysqli_fetch_array($proses);
   <form method="POST" action="edit.php">
   <div class="mb-3">
     <label class="form-label">Id Buku</label>
-    <input type="text" class="form-control" name = "id_buku" value="<?php echo $row[0] ?>">
+    <input type="text" class="form-control" name = "id_buku" value="<?php echo $row[0] ?>" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Judul Buku</label>
-    <input type="text" class="form-control" name = "judul" value="<?php echo $row[1] ?>">
+    <input type="text" class="form-control" name = "judul" value="<?php echo $row[1] ?>" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Nama Penulis</label>
-    <input type="text" class="form-control" name = "penulis" value="<?php echo $row[2] ?>">
+    <input type="text" class="form-control" name = "penulis" value="<?php echo $row[2] ?>" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Nama Penerbit</label>
-    <input type="text" class="form-control" name = "penerbit" value="<?php echo $row[3] ?>">
+    <input type="text" class="form-control" name = "penerbit" value="<?php echo $row[3] ?>" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Tahun Terbit</label>
-    <input type="text" class="form-control" name = "tahun" value="<?php echo $row[4] ?>">
+    <input type="text" class="form-control" name = "tahun" value="<?php echo $row[4] ?>" Required>
   </div>
   <button type="submit" class="btn btn-primary">Edit</button>
 </form>

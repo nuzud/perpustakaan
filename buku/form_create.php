@@ -10,23 +10,23 @@
   <form method = "POST" action = "create.php">
   <div class="mb-3">
     <label class="form-label">Id Buku</label>
-    <input type="text" class="form-control" name = "id_buku">
+    <input type="text" class="form-control" name = "id_buku" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Judul Buku</label>
-    <input type="text" class="form-control" name = "judul">
+    <input type="text" class="form-control" name = "judul" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Nama Penulis</label>
-    <input type="text" class="form-control" name = "penulis">
+    <input type="text" class="form-control" name = "penulis" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Nama Penerbit</label>
-    <input type="text" class="form-control" name = "penerbit">
+    <input type="text" class="form-control" name = "penerbit" Required>
   </div>
   <div class="mb-3">
     <label class="form-label">Tahun Terbit</label>
-    <input type="text" class="form-control" name = "tahun">
+    <input type="text" class="form-control" name = "tahun" Required>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
   <center><a href = "read.php">Lihat Data Buku</a></center>
